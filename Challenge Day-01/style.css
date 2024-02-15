@@ -29,5 +29,12 @@ body {
   margin: 0 auto;
 
   padding: 2em;
-  height: 300px;
+  /* height: 300px; */  /* ! Here height won't be declared. Solution of Ins-2 */
+}
+
+          /* ! Solution of Ins-1 */
+
+.intro-content{
+  width: 50%;
+  margin: 0 auto;     /* !  The CSS property is commonly used to horizontally center an element within its container.*/
 }

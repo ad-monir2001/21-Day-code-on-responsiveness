@@ -34,4 +34,10 @@ body {
 
 .intro-content {
   width: 50%;
+  margin: 0 auto;     /*    ! solve 1 */
+}
+
+.container2{
+  max-width: 750px;   /* ! solve 2 */
+  margin: 0 auto;
 }

@@ -60,7 +60,8 @@
     color: var(--color-primary-2);
 }
 
-.preparation li::marker{
+.preparation li::marker,
+.ingredients li::marker{
     color: var(--color-primary-2);
     
 }
@@ -72,7 +73,7 @@
     line-height: 35px;
 }
 
-.preparation .hilighted{
+.hilighted{
     font-weight: 600;
     color: var(--color-neutral-5);
     font-size: 20px;
@@ -82,3 +83,94 @@
 
 /* ! Style rule for Ingredients */
 
+.ingredients{
+    margin: 2rem;
+}
+
+.ingredients h2,
+.instructions h2,
+.nutrition h2{
+    font-family: var(--font-1);
+    font-size: 35px;
+    font-weight: 400;
+    color: var(--color-primary-1);
+}
+
+.ingredients li{
+    font-family: var(--font-2);
+    margin-left: -10px;
+    color: var(--color-neutral-5);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    padding-left: 25px;
+}
+
+hr{
+    color:var(--color-neutral-4);
+    margin: 2rem 0;
+}
+
+/* ! Style rule for instructions */
+
+.instructions{
+    margin: 2rem;
+}
+
+.instructions li::marker{
+    color: var(--color-primary-2);
+    font-weight: 600;
+    font-family: var(--font-2);
+}
+
+.instructions li{
+    font-family: var(--font-2);
+    margin-left: -20px;
+    color: var(--color-neutral-5);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    padding-left: 25px;
+}
+
+.hilighte{
+    font-weight: 600;
+    color: var(--color-neutral-5);
+    font-size: 20px;
+}
+
+/* ! style rules for nutrition */
+
+.nutrition{
+    margin: 2rem;
+}
+
+.nutrition p{
+    font-family: var(--font-2);
+    color: var(--color-neutral-5);
+
+}
+
+.texts{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    border-bottom: 1px solid var(--color-neutral-4);
+}
+
+.wight{
+    color: var(--color-primary-2);
+    font-weight: 600;
+}
+
+.attribution{
+    background: #112A46;
+    color: var(--color-neutral-1);
+    padding: 2rem;
+    text-align: center;
+    font-family: var(--font-1);
+}
+.attribution a{
+    text-decoration: none;
+    color: var(--color-primary-1);
+}

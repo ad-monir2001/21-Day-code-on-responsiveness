@@ -53,6 +53,7 @@
     background-blend-mode: lighten;
     padding: 1.5rem;
     font-family: var(--font-2);
+    border-radius: 8px;
 }
 
 .preparation h2{
@@ -64,5 +65,20 @@
     
 }
 .preparation li{
-    margin-left: -20px;
+    margin-left: -12px;
+    color: var(--color-neutral-5);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
 }
+
+.preparation .hilighted{
+    font-weight: 600;
+    color: var(--color-neutral-5);
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+/* ! Style rule for Ingredients */
+

@@ -33,9 +33,8 @@
 .hero h1{
     font-family: var(--font-1);
     font-weight: 400;
-    font-size: 35px;
+    font-size: 2em;
     color: var(--color-neutral-6);
-    line-height: 20px;
     margin-top: 3rem;
 }
 

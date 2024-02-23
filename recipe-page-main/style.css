@@ -15,6 +15,10 @@
     --color-primary-2: hsl(332, 51%, 32%);
 }
 
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
 
 /* ! Style rule for hero section */
 
@@ -152,7 +156,7 @@ hr{
 
 .texts{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: start;
     border-bottom: 1px solid var(--color-neutral-4);
 }

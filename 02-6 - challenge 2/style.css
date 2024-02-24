@@ -89,3 +89,16 @@ h1 {
 .btn:focus {
     opacity: .75; 
 }
+.second__sec{
+    width: 80%;
+    max-width: 1100px;
+    margin: 4rem auto;
+    display: flex;
+}
+
+.second__sec_right{
+    background: #136c72;
+    color: #FFF;
+    padding: 2rem;
+    text-align: center;
+}

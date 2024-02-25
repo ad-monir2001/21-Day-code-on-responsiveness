@@ -78,12 +78,10 @@ header {
     padding: 0;
     list-style: none;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
 }
 
 .nav__link {
+    margin-right: 2em;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;;
